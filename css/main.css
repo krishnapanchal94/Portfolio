@@ -229,6 +229,8 @@ main {
   .experience-info table th {
     text-align: start;
     width: 15rem; }
+  .experience-info table tbody tr:not(:last-child) {
+    border-bottom: 1px solid darkgray; }
 
 .projects {
   display: grid;
@@ -243,6 +245,25 @@ main {
       opacity: 0.8;
       border-color: #7FFF00;
       transition: all 0.5s ease-out; }
+
+.disabledLink {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: default; }
+
+.nohref {
+  cursor: pointer; }
+
+.project-info {
+  display: block;
+  font-size: 1.2rem; }
+  .project-info .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: #7FFF00 3px solid;
+    width: 200px;
+    height: 200px; }
 
 .boxes {
   display: flex;
@@ -324,14 +345,27 @@ main {
     grid-template-columns: 1fr; }
   .skills {
     font-size: 2vw !important; }
+  .skills-info table tr {
+    text-align: start; }
+  .skills-info table th {
+    width: 0rem;
+    display: inline-table; }
   .education-info .education {
     font-size: 2vw !important; }
+  .education-info table tbody tr:not(:last-child) {
+    border-bottom: 1px solid darkgray; }
   .education-info table tr {
-    border-bottom: 1px solid #fff; }
+    text-align: start; }
+  .education-info table th {
+    width: 0rem;
+    display: inline-table; }
   .experience-info .experience {
     font-size: 2vw !important; }
   .experience-info table tr {
-    border-bottom: 1px solid #fff; }
+    text-align: start; }
+  .experience-info table th {
+    width: 0rem;
+    display: inline-table; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -343,13 +377,26 @@ main {
   .education-info .education {
     font-size: 2vw !important; }
   .education-info table tr {
-    border-bottom: 1px solid #fff; }
+    text-align: start; }
+  .education-info table tbody tr:not(:last-child) {
+    border-bottom: 1px solid darkgray; }
+  .education-info table th {
+    width: 0rem;
+    display: inline-table; }
+  .skills-info table tr {
+    text-align: start; }
+  .skills-info table th {
+    width: 0rem;
+    display: inline-table; }
   .skills {
     font-size: 2vw !important; }
   .experience-info .experience {
     font-size: 2vw !important; }
   .experience-info table tr {
-    border-bottom: 1px solid #fff; }
+    text-align: start; }
+  .experience-info table th {
+    width: 0rem;
+    display: inline-table; }
   .projects {
     grid-template-columns: 1fr;
     grid-gap: 0rem;

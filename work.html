@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <base target="_blank">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -57,28 +56,108 @@
         </h2>
         <div class="projects">
             <div class="item">
-                <a href="">
-                    <img class="project-img" src="img/project/download.jpeg" alt="project">
+                <a href="https://krishna-panchal.000webhostapp.com/" title="Task organizer">
+                    <img class="project-img" title="Task organizer" src="img/project/download.jpeg" alt="Task organizer">
                 </a>
-                <a href="https://krishna-panchal.000webhostapp.com/" class="btn-light">
+                <a href="https://krishna-panchal.000webhostapp.com/" title="Task organizer" class="btn-light">
                     <i class="fas fa-eye"></i>&nbsp;Project
                 </a>
-                <a href="#" class="btn-dark" aria-disabled="true">
+                <a href="#" class="btn-dark" title="Task organizer" aria-disabled="true">
                     <i class="fab fa-github"></i>&nbsp;Github: Task organizer
                 </a>
             </div>
             <div class="item">
-                <a href="https://github.com/krishnapanchal94/Portfolio">
-                    <img class="project-img" src="img/project/portfolio.jpg" alt="project">
+                <a href="https://github.com/krishnapanchal94/Portfolio" title="Portfolio">
+                    <img class="project-img" src="img/project/portfolio.jpg" title="Portfolio" alt="Portfolio">
                 </a>
-                <a href="https://krishnapanchal94.github.io/Portfolio/dist/" class="btn-light">
+                <a href="https://krishnapanchal94.github.io/Portfolio/dist/" title="Portfolio" class="btn-light">
                     <i class="fas fa-eye"></i>&nbsp;Project
                 </a>
-                <a href="https://github.com/krishnapanchal94/Portfolio" class="btn-dark">
+                <a href="https://github.com/krishnapanchal94/Portfolio" title="Portfolio" class="btn-dark">
                     <i class="fab fa-github"></i>&nbsp;Github: Portfolio
                 </a>
             </div>
-
+            <div class="item">
+                <a href="#" title="TCP Telnet Terminal">
+                    <img class="project-img" title="" src="img/project/tcp_telnet_terminal.png" alt="TCP Telnet Terminal">
+                </a>
+                <a href="" title="TCP Telnet Terminal" class="btn-light disabledLink">
+                    <i class="fas fa-eye"></i>&nbsp;Project
+                </a>
+                <a title="TCP Telnet Terminal" onclick="projectDescription('tcp_terminal')" class="btn-dark nohref">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: TCP Telnet Terminal
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="Social Good Deeds">
+                    <img class="project-img" title="" src="img/project/social_good_deeds.png" alt="Social Good Deeds">
+                </a>
+                <a href="" title="Social Good Deeds" class="btn-light disabledLink">
+                    <i class="fas fa-eye"></i>&nbsp;Project
+                </a>
+                <a title="Social Good Deeds" onclick="projectDescription('good_deeds')" class="btn-dark nohref">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: Social Good Deeds
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="Real Estate CRM">
+                    <img class="project-img" title="" src="img/project/default.jpg" alt="Real Estate CRM">
+                </a>
+                <a href="" title="Real Estate CRM" class="btn-light disabledLink">
+                    <i class="fas fa-eye"></i>&nbsp;Project
+                </a>
+                <a href="" title="Real Estate CRM" class="btn-dark">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: Real Estate CRM
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="Open Access Journal">
+                    <img class="project-img" title="" src="img/project/default.jpg" alt="Open Access Journal">
+                </a>
+                <a href="https://www.slideshare.net/krishipanch007/open-access-jornal" title="Open Access Journal"
+                    class="btn-light disabledLink">
+                    <i class="fas fa-book"></i>&nbsp;Documentation
+                </a>
+                <a onclick="projectDescription('journal')" title="Open Access Journal" class="btn-dark nohref">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: Open Access Journal
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="Styloce">
+                    <img class="project-img" title="" src="img/project/default.jpg" alt="Styloce">
+                </a>
+                <a href="https://www.slideshare.net/krishipanch007/project-documentation-116521257" title="Styloce"
+                    class="btn-light">
+                    <i class="fas fa-book"></i>&nbsp;Documentation
+                </a>
+                <a onclick="projectDescription('styloce')" title="Styloce" class="btn-dark nohref">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: Styloce(Opencart)
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="Droid Sensors">
+                    <img class="project-img" title="" src="img/project/droid_sensor.png" alt="Droid Sensors">
+                </a>
+                <a href="https://www.slideshare.net/krishipanch007/project-documentation-116521257" title="Droid Sensors"
+                    class="btn-light">
+                    <i class="fas fa-book"></i>&nbsp;Documentation
+                </a>
+                <a onclick="projectDescription('droid')" title="Droid Sensors" class="btn-dark nohref">
+                    <i class="fas fa-info-circle"></i>&nbsp;Description: Droid Sensors (Android)
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" title="School Management System">
+                    <img class="project-img" title="" src="img/project/school.png" alt="School Management System">
+                </a>
+                <a href="https://www.slideshare.net/krishipanch007/schoolmanagementsystem-117441612" title="School Management System"
+                    class="btn-light">
+                    <i class="fas fa-eye"></i>&nbsp;Documentation
+                </a>
+                <a onclick="projectDescription('school')" title="School Management System" class="btn-dark nohref">
+                    <i class="fas fa-book"></i>&nbsp;Description: School Management System
+                </a>
+            </div>
         </div>
     </main>
 

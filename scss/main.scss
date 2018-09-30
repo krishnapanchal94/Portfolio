@@ -1,0 +1,262 @@
+@import "config";
+@import "menu";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include background;
+  background: $primary-color;
+  color: white;
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+//Headings
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+  &.lg-heading {
+    font-size: 6rem;
+  }
+  &.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    background: rgba(lighten($primary-color, $amount: 2), 0);
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+main {
+  padding: 4rem; //height: 100%;
+  min-height: calc(100vh - 60px);
+  .icons {
+    margin-top: 1rem;
+  }
+  a {
+    padding: 0.4rem;
+    &:hover {
+      color: $secondary-color;
+      @include easeOut();
+    }
+  }
+  &#home {
+    overflow: hidden;
+    h1 {
+      margin-top: 20vh;
+    }
+  }
+}
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr);
+  .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
+    width: 200px;
+    height: 200px;
+  }
+  .bio {
+    grid-area: bio;
+    font-size: 1.5rem;
+  }
+  .job-1 {
+    grid-area: job1;
+  }
+  .job-2 {
+    grid-area: job2;
+  }
+  .job-3 {
+    grid-area: job3;
+  }
+  .job {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border: white 3px solid;
+  }
+}
+//Education on About Us
+.education-info {
+  display: block;
+  margin-block-start: 1rem;
+  .education {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border: white 3px solid;
+    margin-block-end: 1rem;
+    // font-size: 2vw !important;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table th {
+    text-align: start;
+    width: 8rem;
+  }
+}
+
+//Skills on About Us
+.skills-info {
+  display: block;
+  margin-block-start: 1rem;
+  .skills {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border: white 3px solid;
+    margin-block-end: 1rem;
+  }
+  table th {
+    text-align: start;
+    width: 20rem;
+  }
+}
+
+//Skills on About Us
+.experience-info {
+  display: block;
+  margin-block-start: 1rem;
+  .experience {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border: white 3px solid;
+    margin-block-end: 1rem;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table th {
+    text-align: start;
+    width: 15rem;
+  }
+  table tbody tr:not(:last-child) {
+    border-bottom: 1px solid darkgray;
+  }
+}
+
+//Work - Projects
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+  img {
+    border: 3px solid white;
+    width: 29vw;
+    height: 20vw;
+    object-fit: cover;
+    &:hover {
+      opacity: 0.8;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+.disabledLink {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: default;
+}
+.nohref {
+  cursor: pointer;
+}
+//Project Details
+// #tcp_terminal,
+// #styloce,
+// #droid,
+// #school,
+// #journal,
+// #estate,
+// #kintu_crm {
+//   display: none;
+// }
+//Project Details Page
+.project-info {
+  display: block;
+  font-size: 1.2rem;
+  .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
+    width: 200px;
+    height: 200px;
+  }
+}
+//Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  div {
+    font-size: 1rem;
+    border: 3px solid #fff;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+    &:hover {
+      background: $secondary-color;
+      color: #000;
+      span {
+        color: #000;
+      }
+    }
+  }
+}
+
+//Butoon Stuff
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-left: 0.4rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: #000;
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: lighten($primary-color, 30);
+  color: #fff;
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 10);
+  color: #fff;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($color: $primary-color, $amount: 10);
+  height: 60px;
+}
+
+@import "mobile";

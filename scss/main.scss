@@ -248,8 +248,9 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 10);
+  background: lighten(#7b6464, 2);
   color: #fff;
+  //
 }
 
 #main-footer {

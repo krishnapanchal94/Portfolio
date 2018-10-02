@@ -68,3 +68,8 @@ function projectDescription(req) {
   );
   window.location.href = base_location + new_location + "?id=" + req;
 }
+
+//History
+function goBack() {
+  window.history.back();
+}

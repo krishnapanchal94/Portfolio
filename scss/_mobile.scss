@@ -103,6 +103,9 @@
   h1.lg-heading {
     font-size: 64px;
   }
+  h2.sm-heading {
+    font-size: 16px;
+  }
   main#home h1 {
     margin-top: 10vh;
   }
@@ -157,9 +160,31 @@
       height: 50vw;
     }
   }
+
   .project-info {
     p {
       font-size: 0.6rem;
+      text-align: start;
+    }
+  }
+  .project-info {
+    ul {
+      font-size: 0.6rem;
+      text-align: start;
+      margin-left: -50px;
+    }
+    .experience-info {
+      table td {
+        display: block;
+      }
+      table th {
+        width: auto;
+      }
+    }
+  }
+  .about-info {
+    p {
+      font-size: 1rem;
       text-align: start;
     }
   }

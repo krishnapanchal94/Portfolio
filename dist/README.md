@@ -1,4 +1,6 @@
-Link: https://github.com/krishnapanchal94/Portfolio
+Project Link: https://github.com/krishnapanchal94/Portfolio
+
+Portfolio Link : https://krishnapanchal94.github.io/Portfolio
 
 IDE : Visual Studio Code
 Extensions that i have use : Live Server, Prerrier, Live Sass Complier
@@ -6,6 +8,7 @@ Extensions that i have use : Live Server, Prerrier, Live Sass Complier
 To run my project i have been use Live Server.
 
 To Setup this site run following commands:
+
 Install Node-sass using command line utility,
 
 npm init
@@ -28,8 +31,11 @@ https://username.github.io/repository_name
 Step 3 : create a deploye script like sass sceipt in package.json
 
 "scripts": {
+
 "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+
 "deploy": "gh-pages -d dist"
+
 },
 
 --To publish it ,
@@ -42,5 +48,5 @@ https://username.github.io/repository_name :)
 
 --To change domain name,
 First Register the domain
-than got to setting page on git repo.
+than go to setting page on git repo.
 in Githhub pages section add custom domain

@@ -1,427 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Krishna Panchal - Project Details</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="menu-btn">
-            <div class="btn-lines"></div>
-            <div class="btn-lines"></div>
-            <div class="btn-lines"></div>
+      <div class="menu-btn">
+        <div class="btn-lines"></div>
+        <div class="btn-lines"></div>
+        <div class="btn-lines"></div>
+      </div>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
         </div>
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item current">
-                    <a href="about.html" class="nav-link">
-                        About Me
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="work.html" class="nav-link">
-                        My Work
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        How To Reach Me
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main id="projects">
-        <div>
-            <button class="btn" onclick="goBack()"><i class="fas fa-arrow-left"></i></button>
+      <div>
+        <button class="btn" onclick="goBack()">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+      </div>
+      <section id="tcp_terminal">
+        <h1 class="sm-heading">
+          <span class="text-secondary">TCP Telnet Terminal</span>
+        </h1>
+
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">Technical Details</h4>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>IOS - Swift 3</td>
+                </tr>
+                <tr>
+                  <th>Libraries</th>
+                  <td>CocoaAsyncSocket,GoogleMobileAds,FTPopOverMenu_Swift</td>
+                </tr>
+                <tr>
+                  <th>Application Compatibility</th>
+                  <td>
+                    iPhone 5S, 6, 6 Plus, 6S, 6S Plus, SE, 7, 7 Plus, 8, 8 Plus
+                    and iPhone X,iPad Air, Air 2 and 5th-gen iPad,iPad Mini
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <p>
+              This app is used by Electronics people for hardware testing and
+              debugging purpose. TCP Telnet Terminal works based on TCP/IP
+              protocol , Using this app we can create TCP Client that
+              communicate with Server. To start a Telnet terminal, You must
+              provide IP address and PORT number of the server. After connection
+              is established with server , you can easily access and communicate
+              with your server.
+            </p>
+            <p>
+              Also learn & implemented SwiftSocket Library in initial-stage.
+            </p>
+          </div>
+          <div>
+            <h5 class="text-secondary">Features</h5>
+            <ul>
+              <li>Separate panels for sending and receiving data.</li>
+              <li>
+                Custom your own buttons for frequent sending of same data.
+              </li>
+              <li>Selection for \r \n at the end of sending data.</li>
+              <li>Simple copy option in sent data just long press on data.</li>
+            </ul>
+          </div>
+          <!-- <img src="img/krishna-panchal.jpg" alt="Krishna Panchal" class="bio-image"> -->
         </div>
-        <section id="tcp_terminal">
-            <h1 class="sm-heading">
-                <span class="text-secondary">TCP Telnet Terminal</span>
-            </h1>
-
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>IOS - Swift 3</td>
-                            </tr>
-                            <tr>
-                                <th>Libraries</th>
-                                <td>CocoaAsyncSocket,GoogleMobileAds,FTPopOverMenu_Swift</td>
-                            </tr>
-                            <tr>
-                                <th>Application Compatibility</th>
-                                <td>iPhone 5S, 6, 6 Plus, 6S, 6S Plus, SE, 7, 7 Plus, 8, 8 Plus and iPhone X,iPad Air,
-                                    Air 2 and 5th-gen iPad,iPad Mini</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>This app is used by Electronics people for hardware testing and debugging purpose.
-                        TCP Telnet Terminal works based on TCP/IP protocol
-                        , Using this app we can create TCP Client that communicate with Server.
-                        To start a Telnet terminal, You must provide IP address and PORT number of the server.
-                        After connection is established with server
-                        , you can easily access and communicate with your server.
-                    </p>
-                    <p>Also learn & implemented SwiftSocket Library in initial-stage.</p>
-                </div>
-                <div>
-                    <h5 class="text-secondary">Features</h5>
-                    <ul>
-                        <li>Separate panels for sending and receiving data.</li>
-                        <li>Custom your own buttons for frequent sending of same data.</li>
-                        <li>Selection for \r \n at the end of sending data.</li>
-                        <li>Simple copy option in sent data just long press on data.</li>
-                    </ul>
-                </div>
-                <!-- <img src="img/krishna-panchal.jpg" alt="Krishna Panchal" class="bio-image"> -->
-            </div>
-        </section>
-        <section id="styloce">
-            <h1 class="sm-heading">
-                <span class="text-secondary">Styloce(Opencart)</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
+      </section>
+      <section id="styloce">
+        <h1 class="sm-heading">
+          <span class="text-secondary">Styloce(Opencart)</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">
+              Technical Details
             </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>Opencart,Jquery,Ajax</td>
-                            </tr>
-                            <tr>
-                                <th>Database Server</th>
-                                <td>MY-SQL</td>
-                            </tr>
-                            <tr>
-                                <th>Front End /Code-behind</th>
-                                <td>PHP</td>
-                            </tr>
-                            <tr>
-                                <th>Team-size/Team Members</th>
-                                <td>3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>3 Month(OCT 2016-DEC 2016)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>This is project report on “online woman clothing application” named ‘Styloce’.
-                        Styloce is a web based application which helps people to find and buy latest fashion of women
-                        with different functionality on internet.
-                        It is useful in the way that makes an easier way to buy woman clothes online.</p>
-                    <p>The Online Shopping system enables vendors to set up online shops, customers to browse through
-                        the shops
-                        , and a system administrator to approve and reject requests for new shops and maintain lists of
-                        shop categories.
-                        Also on the agenda is designing an online shopping site to manage the items in the shop and
-                        help customers purchase
-                        them online without having to visit the shop physically.
-                        Our online shopping mall will use the internet as the sole method for selling goods to its
-                        consumers.
-                        Shopping will be highly personalized and the mall will provide lower prices than most
-                        competitors.</p>
-                </div>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>Opencart,Jquery,Ajax</td>
+                </tr>
+                <tr>
+                  <th>Database Server</th>
+                  <td>MY-SQL</td>
+                </tr>
+                <tr>
+                  <th>Front End /Code-behind</th>
+                  <td>PHP</td>
+                </tr>
+                <tr>
+                  <th>Team-size/Team Members</th>
+                  <td>
+                    3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal
+                  </td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>3 Month(OCT 2016-DEC 2016)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.slideshare.net/krishipanch007/project-documentation-116521257"
+                      target="_blank"
+                    >
+                      <i class="fas fa-book"></i>&nbsp;Documentation
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </section>
-        <section id="droid">
-            <h1 class="sm-heading">
-                <span class="text-secondary">Droid Sensor</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
+          </div>
+          <div>
+            <p>
+              This is project report on “online woman clothing application”
+              named ‘Styloce’. Styloce is a web based application which helps
+              people to find and buy latest fashion of women with different
+              functionality on internet. It is useful in the way that makes an
+              easier way to buy woman clothes online.
+            </p>
+            <p>
+              The Online Shopping system enables vendors to set up online shops,
+              customers to browse through the shops , and a system administrator
+              to approve and reject requests for new shops and maintain lists of
+              shop categories. Also on the agenda is designing an online
+              shopping site to manage the items in the shop and help customers
+              purchase them online without having to visit the shop physically.
+              Our online shopping mall will use the internet as the sole method
+              for selling goods to its consumers. Shopping will be highly
+              personalized and the mall will provide lower prices than most
+              competitors.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="droid">
+        <h1 class="sm-heading">
+          <span class="text-secondary">Droid Sensor</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">Technical Details</h4>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>Android</td>
+                </tr>
+                <tr>
+                  <th>HDD Storage</th>
+                  <td>Min 6MB</td>
+                </tr>
+                <tr>
+                  <th>RAM</th>
+                  <td>Min 512MB</td>
+                </tr>
+                <tr>
+                  <th>Front End / Code-behind</th>
+                  <td>Android / java</td>
+                </tr>
+                <tr>
+                  <th>Android Operating System</th>
+                  <td>Min Jelly bean API Level 16 and Above</td>
+                </tr>
+                <tr>
+                  <th>Target/Compiled SDK</th>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <th>Build Tool Version</th>
+                  <td>24.0.2</td>
+                </tr>
+                <tr>
+                  <th>Tea-size/Team Members</th>
+                  <td>
+                    3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal
+                  </td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>3 Month(OCT 2016-DEC 2016)</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <p>
+              Droid Sensor Is an android based mobile application which works on
+              sensors of mobile device. The application will provide all the
+              sensor data of particular device so that user can get clear idea
+              about device sensors.Application also provide raw data so that the
+              user can get clear idea about built quality of device and their
+              sensors. User can compare and understand the working of each
+              sensor with its information.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="school">
+        <h1 class="sm-heading">
+          <span class="text-secondary">School Management System</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">
+              Technical Details
             </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>Android</td>
-                            </tr>
-                            <tr>
-                                <th>HDD Storage</th>
-                                <td>Min 6MB</td>
-                            </tr>
-                            <tr>
-                                <th>RAM</th>
-                                <td>Min 512MB</td>
-                            </tr>
-                            <tr>
-                                <th>Front End / Code-behind</th>
-                                <td>Android / java</td>
-                            </tr>
-                            <tr>
-                                <th>Android Operating System</th>
-                                <td>Min Jelly bean API Level 16 and Above</td>
-                            </tr>
-                            <tr>
-                                <th>Target/Compiled SDK</th>
-                                <td>23</td>
-                            </tr>
-                            <tr>
-                                <th>Build Tool Version</th>
-                                <td>24.0.2</td>
-                            </tr>
-                            <tr>
-                                <th>Tea-size/Team Members</th>
-                                <td>3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>3 Month(OCT 2016-DEC 2016)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>Droid Sensor Is an android based mobile application which works on sensors of mobile
-                        device.
-                        The application will provide all the sensor data of particular device so that user can get
-                        clear idea about device sensors.Application also provide raw data
-                        so that the user can get clear idea about built quality of device and their sensors.
-                        User can compare and understand the working of each sensor with its information.
-                    </p>
-                </div>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>Core PHP, Jquery, Javascript, Ajax</td>
+                </tr>
+                <tr>
+                  <th>Database Server</th>
+                  <td>MY-SQL</td>
+                </tr>
+                <tr>
+                  <th>Tea-size/Team Members</th>
+                  <td>2 members - Harshang Cyclewala, Krishna Panchal</td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>3 Month(FEB 2015-APRIL 2015)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.slideshare.net/krishipanch007/schoolmanagementsystem-117441612"
+                      target="_blank"
+                    >
+                      <i class="fas fa-book"></i>&nbsp;Documentation
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </section>
-        <section id="school">
-            <h1 class="sm-heading">
-                <span class="text-secondary">School Management System</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
+          </div>
+          <div>
+            <p>
+              The main purpose of our website is to Providing Online admission
+              form for the Parents & students . This application will automate
+              admission procedure.
+            </p>
+            <p>
+              Admin can manage all the school details online, admin can manage
+              all employess, faculty , classes, subject, faculty , employee
+              attendance details online. Employee can manage their attendance
+              online and they can also manage their profile information online.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="journal">
+        <h1 class="sm-heading">
+          <span class="text-secondary">Open Access Journal(JAVA MVC)</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">
+              Technical Details
             </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>Core PHP, Jquery, Javascript, Ajax</td>
-                            </tr>
-                            <tr>
-                                <th>Database Server</th>
-                                <td>MY-SQL</td>
-                            </tr>
-                            <tr>
-                                <th>Tea-size/Team Members</th>
-                                <td>2 members - Harshang Cyclewala, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>3 Month(FEB 2015-APRIL 2015)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>The main purpose of our website is to Providing Online admission form for the Parents & students
-                        .
-                        This application will automate admission procedure.
-                    </p>
-                    <p>Admin can manage all the school details online, admin can manage all employess, faculty
-                        , classes, subject, faculty , employee attendance details online.
-                        Employee can manage their attendance online and they can also manage their profile information
-                        online.</p>
-                </div>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>EJB, JSF, JPA, Jquery</td>
+                </tr>
+                <tr>
+                  <th>Database Server</th>
+                  <td>MY-SQL</td>
+                </tr>
+                <tr>
+                  <th>Tea-size/Team Members</th>
+                  <td>2 members - Hemaxi Pajapati, Krishna Panchal</td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>3 Month(SEP 2015-NOV 2015)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.slideshare.net/krishipanch007/open-access-jornal"
+                      target="_blank"
+                    >
+                      <i class="fas fa-book"></i>&nbsp;Documentation
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </section>
-        <section id="journal">
-            <h1 class="sm-heading">
-                <span class="text-secondary">Open Access Journal(JAVA MVC)</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
+          </div>
+          <div>
+            <p>
+              The objective of the system is to provide generic trading system
+              that contains the basic functionality of any Accessing Journal to
+              publish the journals Article by publisher.
+            </p>
+            <p>
+              Provide the system administrator with easy interface for different
+              administrative task such as Addition,Updating,Deletion of
+              different Journals.
+            </p>
+            <p>
+              In recent years free, online journals, many of them open access
+              and peer-reviewed, have begun to both challenge and complement
+              traditional academic publishing. This is a welcome development and
+              Open Access Journals is developing a resource on its website with
+              links to journals in the field of media and communications.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="estate">
+        <h1 class="sm-heading">
+          <span class="text-secondary">Real Estate CRM</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">
+              Technical Details
             </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>EJB, JSF, JPA, Jquery</td>
-                            </tr>
-                            <tr>
-                                <th>Database Server</th>
-                                <td>MY-SQL</td>
-                            </tr>
-                            <tr>
-                                <th>Tea-size/Team Members</th>
-                                <td>2 members - Hemaxi Pajapati, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>3 Month(SEP 2015-NOV 2015)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>The objective of the system is to provide generic trading system that contains
-                        the basic functionality of any Accessing Journal to publish the journals Article by publisher.
-                    </p>
-                    <p>Provide the system administrator with easy interface for different administrative task
-                        such as Addition,Updating,Deletion of different Journals.</p>
-                    <p>In recent years free, online journals, many of them open access and peer-reviewed,
-                        have begun to both challenge and complement traditional academic publishing.
-                        This is a welcome development and Open Access Journals is developing a resource on its website
-                        with links to journals in the field of media and communications.</p>
-                </div>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>CakePHP Framework</td>
+                </tr>
+                <tr>
+                  <th>Database Server</th>
+                  <td>MY-SQL</td>
+                </tr>
+                <tr>
+                  <th>Tea-size/Team Members</th>
+                  <td>2 members - Tejal Bariya, Krishna Panchal</td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>4 Month(JAN 2017- APRIL 2015)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.slideshare.net/krishipanch007/real-estate-crm-117785063"
+                      target="_blank"
+                    >
+                      <i class="fas fa-book"></i>&nbsp;Documentation
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </section>
-        <section id="estate">
-            <h1 class="sm-heading">
-                <span class="text-secondary">Real Estate CRM</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
+          </div>
+          <div>
+            <p>
+              Kintu Real Estate CRM is a web based application which helps
+              people to find a properties and project plans. Kintu Real Estate
+              CRM is advanced solution for his/her estate problem. Our
+              application customer can request for follow-up in interested
+              properties or project plans. Customers can buy or registered for
+              properties.
+            </p>
+            <p>
+              Customers can view project plans and can do inquiry of any
+              property. Customer can share the properties and project plans to
+              other user on Gmail, Facebook, twitter etc. Customer can register
+              on our web site and maintain its deals, purchase, profile,
+              properties details.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="kintu_crm"></section>
+      <section id="good_deeds">
+        <h1 class="sm-heading">
+          <span class="text-secondary">Social Good Deeds(ASP.NET MVC)</span>
+        </h1>
+        <h4 class="sm-heading">
+          Acadmic Project
+        </h4>
+        <div class="project-info">
+          <div class="experience-info">
+            <h4 class="text-secondary">
+              Technical Details
             </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>CakePHP Framework</td>
-                            </tr>
-                            <tr>
-                                <th>Database Server</th>
-                                <td>MY-SQL</td>
-                            </tr>
-                            <tr>
-                                <th>Tea-size/Team Members</th>
-                                <td>2 members - Tejal Bariya, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>4 Month(JAN 2017- APRIL 2015)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>Kintu Real Estate CRM is a web based application which helps people to find a properties
-                        and project plans.
-                        Kintu Real Estate CRM is advanced solution for his/her estate problem.
-                        Our application customer can request for follow-up in interested properties or project plans.
-                        Customers can buy or registered for properties.
-                    </p>
-                    <p>Customers can view project plans and can do inquiry of any property.
-                        Customer can share the properties and project plans to other user on Gmail, Facebook, twitter
-                        etc.
-                        Customer can register on our web site and maintain its deals, purchase, profile, properties
-                        details.</p>
-
-                </div>
+            <div class="experience">
+              <table>
+                <tr>
+                  <th>Technology</th>
+                  <td>c#, Advance.NET with Entity Framework, Angular JS</td>
+                </tr>
+                <tr>
+                  <th>Back-end</th>
+                  <td>SQL Server 2005/2008</td>
+                </tr>
+                <tr>
+                  <th>Tea-size/Team Members</th>
+                  <td>
+                    3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal
+                  </td>
+                </tr>
+                <tr>
+                  <th>Project duration</th>
+                  <td>3 Month(FEB 2016-APRIL 2016)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.slideshare.net/krishipanch007/social-good-deeds"
+                      target="_blank"
+                    >
+                      <i class="fas fa-book"></i>&nbsp; Documentation
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </section>
-        <section id="kintu_crm">
-        </section>
-        <section id="good_deeds">
-            <h1 class="sm-heading">
-                <span class="text-secondary">Social Good Deeds(ASP.NET MVC)</span>
-            </h1>
-            <h4 class="sm-heading">
-                Acadmic Project
-            </h4>
-            <div class="project-info">
-                <div class="experience-info">
-                    <h4 class="text-secondary">Technical Details</h4>
-                    <div class="experience">
-                        <table>
-                            <tr>
-                                <th>Technology</th>
-                                <td>c#, Advance.NET with Entity Framework, Angular JS</td>
-                            </tr>
-                            <tr>
-                                <th>Back-end</th>
-                                <td>SQL Server 2005/2008</td>
-                            </tr>
-                            <tr>
-                                <th>Tea-size/Team Members</th>
-                                <td>3 members - Sahil Bhojani, Rizwan Khan, Krishna Panchal</td>
-                            </tr>
-                            <tr>
-                                <th>Project duration</th>
-                                <td>3 Month(FEB 2016-APRIL 2016)</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div>
-                    <p>Social Good Deeds is Online Blogging System
-                        , In which system can manage posts and maintain users, organization, events, groups, activities
-                        and provided report.
-                    </p>
-                    <p>Social Good Deeds, web application provides a facility of sharing good deeds as well as
-                        encourage for good
-                        activities towards society.User can follow, like, comment and also can participate for events.
-                        They can also implement the activities and share their experience.
-                        Users can participate as member for groups and organization for updates.
-                    </p>
-                </div>
-            </div>
-        </section>
+          </div>
+          <div>
+            <p>
+              Social Good Deeds is Online Blogging System , In which system can
+              manage posts and maintain users, organization, events, groups,
+              activities and provided report.
+            </p>
+            <p>
+              Social Good Deeds, web application provides a facility of sharing
+              good deeds as well as encourage for good activities towards
+              society.User can follow, like, comment and also can participate
+              for events. They can also implement the activities and share their
+              experience. Users can participate as member for groups and
+              organization for updates.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer id="main-footer">
-        Copyrights &copy; 2018
+      Copyrights &copy; 2018
     </footer>
 
     <script src="js/main.js"></script>
     <script type="text/javascript">
-        // alert(window.location.search.substring(4));
+      // alert(window.location.search.substring(4));
 
-        window.onload = function () {
-
-            document.getElementById('tcp_terminal').style.display = 'none';
-            document.getElementById('styloce').style.display = 'none';
-            document.getElementById('droid').style.display = 'none';
-            document.getElementById('school').style.display = 'none';
-            document.getElementById('journal').style.display = 'none';
-            document.getElementById('estate').style.display = 'none';
-            document.getElementById('kintu_crm').style.display = 'none';
-            document.getElementById('good_deeds').style.display = 'none';
-            url = window.location.search.substring(4);
-            document.getElementById(url).style.display = 'block';
-        };
-
-
+      window.onload = function() {
+        document.getElementById("tcp_terminal").style.display = "none";
+        document.getElementById("styloce").style.display = "none";
+        document.getElementById("droid").style.display = "none";
+        document.getElementById("school").style.display = "none";
+        document.getElementById("journal").style.display = "none";
+        document.getElementById("estate").style.display = "none";
+        document.getElementById("kintu_crm").style.display = "none";
+        document.getElementById("good_deeds").style.display = "none";
+        url = window.location.search.substring(4);
+        document.getElementById(url).style.display = "block";
+      };
     </script>
-</body>
-
+  </body>
 </html>

@@ -3,7 +3,7 @@ Project Link: https://github.com/krishnapanchal94/Portfolio
 Portfolio Link : https://krishnapanchal94.github.io/Portfolio
 
 IDE : Visual Studio Code
-Extensions that i have use : Live Server, Prerrier, Live Sass Complier
+Extensions that i have used in this project : Live Server, Prerrier, Live Sass Complier
 
 To run my project i have been use Live Server.
 

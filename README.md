@@ -4,6 +4,7 @@ Project Link: https://github.com/krishnapanchal94/Portfolio
 Portfolio Link : https://krishnapanchal94.github.io/Portfolio
 
 IDE : Visual Studio Code
+
 Extensions that i have used in this project : Live Server, Prerrier, Live Sass Complier
 
 To run my project i have been use Live Server.
@@ -29,7 +30,7 @@ Step 2 : change home page name in package.json
 
 https://username.github.io/repository_name
 
-Step 3 : create a deploye script like sass sceipt in package.json
+Step 3 : create a deploy script like sass script in package.json
 
 "scripts": {
 

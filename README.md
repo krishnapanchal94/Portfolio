@@ -20,6 +20,7 @@ npm init
 npm i node-sass
 
 To Run npm
+
 npm run sass
 
 --To deploy our project on githhub
